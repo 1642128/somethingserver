@@ -1,0 +1,56 @@
+messages:
+  command:
+    troll:
+      stopped: '&a&l%player% &a&lhas stopped the Troll!'
+      guiOpened: '&7Troll menu was opened!'
+      noPerms: '&cYou are not allowed to do this!'
+      reload: '&7Config reloaded!'
+      started: '&a&l%player% &a&lhas started the Troll!'
+  playerTroll:
+    teleport: '&7You were teleported to &e%target%&7!'
+    damagedLighting: '&7You created damaged lighting strike to &e%target%&7!'
+    tnt: '&7You summoned tnt into &e%target%&7!'
+    chatSpamStarted: '&7You started spamming &e%target%&7'
+    downFallWeather: '&7You changed &e%target%''s &7weather!'
+    lighting: '&7You created lighting strike effect to &e%target%&7!'
+    freezed: '&7You freezed &e%target%&7!'
+    fakeMessage:
+      alreadyCanTypeFakeMessage: '&cYou already can type fake message into chat!'
+      typeFakeMessage: '&7Type fake message into chat!'
+    randomEffect: '&7You added new random effect to &e%target%&7! Effect: &c%effect%
+      &a%amplifier% &7for &6%seconds% &7seconds!'
+    hack: '&7You hacked &e%target%&7!'
+    fakeHacks: '&7You enabled fake hacks to &e%target%&7!'
+    fakeMessageToSend: '&f%target%: &7%message%'
+    message: '&e%target% &7was kicked! (CRASHED)'
+    chatSpam: '&7You spammed &e%target%''s &7chat!'
+    crash:
+      kickMessage: 'java.net.ConnectException: Connection timed out: No further information'
+    start: '&7You started trolling &e%target%&7!'
+    fakeOPMessage: '§7§o[Server: Opped %target%]'
+    randomKnockBack: '&7You hit &e%target%&7!'
+    fall: '&7You trolled &e%target%&7 and he was teleported to sky!'
+    playernotfound: '&cPlayer isn''t online!'
+    fakeAntiCheatMessage: '&8[&cAntiCheat&8] &cStop cheating!'
+    fakeOP: '&7You fake opped &e%target%&7!'
+  trollType:
+    fall: '&6Oh.. Unlucky, you were teleported!'
+  error: '&cAn error occurred!'
+prefix: '&8[&6Troll&8] &r'
+publicTroll: false
+playerTroll:
+  chatSpam:
+    howLong: 10
+  fakeHacks:
+    howLong: 15
+  weather:
+    howLong: 10
+  fireTick:
+    howLong: 10
+  freeze:
+    howLong: 10
+  hacking:
+    howLong: 10
+troll:
+  cancelDamage: true
+  perms: troll.admin
