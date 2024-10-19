@@ -1,16 +1,16 @@
 lastAccountName: Ziricium
 timestamps:
-  login: 1729351700266
-  logout: 1729352054551
+  login: 1729360552300
+  logout: 1729360732278
   kits:
     op: 1729350048906
 ipAddress: 0:0:0:0:0:0:0:1
 logoutlocation:
   world: world
-  x: 309.6075784512284
+  x: 302.77263649238506
   y: 64.0
-  z: 196.35212502131742
-  yaw: 181.19574
-  pitch: 40.454243
+  z: 196.83071520096996
+  yaw: 197.64435
+  pitch: 31.205694
 afk: false
 money: '7164000.0'

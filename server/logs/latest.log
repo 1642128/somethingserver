@@ -293,3 +293,11 @@ Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.NoClassDef
 
 [17:52:19] [Server thread/INFO]: [0;33;1m[ProtocolLib] The updater found an update: 5.2.0 (Running 5.2.0-SNAPSHOT-679). Download at https://www.spigotmc.org/resources/protocollib.1997/[m
 
+[17:55:51] [Thread-8/INFO]: UUID of player Ziricium is 2b0a189d-4c6f-3144-b015-d6ccb8065523
+[17:55:52] [Server thread/INFO]: Ziricium[/[0:0:0:0:0:0:0:1]:37308] logged in with entity id 252 at ([world]309.6075784512284, 64.0, 196.35212502131742)
+[17:56:21] [Server thread/INFO]: Ziricium issued server command: /troll
+[17:56:25] [Server thread/INFO]: Ziricium issued server command: /troll
+[17:56:29] [Server thread/INFO]: Ziricium issued server command: /troll
+[17:56:31] [Server thread/INFO]: Ziricium issued server command: /trollv4
+[17:58:52] [Server thread/INFO]: Ziricium lost connection: Disconnected
+[17:58:52] [Server thread/INFO]: Ziricium left the game.
