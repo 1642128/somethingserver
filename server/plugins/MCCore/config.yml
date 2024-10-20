@@ -1,0 +1,138 @@
+miscellaneous:
+  console prefix: '&6&lMCCore &8&l>'
+  combat log prefix: '&c&lCombatLog &8&l>'
+  error prefix: '&c&lERROR &8&l>'
+  combat villager name: '&7%player% &4&l(Combat Logger)'
+configuration:
+# Here you'll be able to set the amount of warps you want each permission node to have.
+# node one | node two | node three | node four | node five
+# mccore.warps.node.one | mccore.warps.node.two | mccore.warps.node.three | mccore.warps.node.four | mccore.warps.node.five
+# Above is permission node to their corresponding key below where you can set the value to how many warps you want each node have, ex. If you want a currentRank in your permission manager plugin to
+# To only be able to set 3 warps, change node one value to 3 and put mccore.warps.node.one into your permission manager plugin or don't change anything and put mccore.warps.node.three into your manager.
+  warps:
+    node one: 1
+    node two: 3
+    node three: 5
+    node four: 10
+    node five: 15
+# Here you'll be able to set the amount of seconds you want a specific action in this plugin to happen for..
+  time:
+    combat log timeout: 5
+    team invite timeout: 30
+# I don't have to explain this, Every message in the plugin can be configured here. Please refer to the
+# Minecraft color codes if you wish to color your messages to find the color code for the color that you want..
+messages:
+  successful:
+    radius set: '&eSpawn protection radius was set successfully&8.'
+    you have spawn protection: '&eYou have spawn protection right now. If you leave the spawn, Your protection will be removed&8.'
+    spawn radius:
+      position one set: '&ePosition &6one &ewas set&8.'
+      position two set: '&ePosition &6two &ewas set&8.'
+    spawn set: '&7Server spawn was set successfully&8.'
+    tool added: '%tool% &7was successfully added to your inventory&8.'
+    has demoted you: '&6%player% &ehas demoted you to &6%rank%&8.'
+    was demoted: '&6%player% &ewas demoted to &6%rank%&8.'
+    has promoted you: '&6%player% &ehas promoted you to &6%rank%&8.'
+    was promoted: '&6%player% &ewas promoted to &6%rank%&8.'
+    has kicked you: '&6%player% &ehas removed you from &6%team%&8.'
+    was kicked: '&6%player% &ewas removed from the team&8.'
+    friendly fire:
+      enabled: '&7Friendly Fire &aON'
+      disabled: '&7Friendly Fire &cOFF'
+    you have joined the team: '&eYou''ve successfully joined team &6%team%&8.'
+    you was teleported: '&eTeleported&8.'
+    has join: '&6%player% &ehas joined the team&8.'
+    has left: '&6%player% &ehas left the team&8.'
+    invitation timed out: '&eYour invitation to &6%player% &ehas timed out&8.'
+    successfully left: '&eYou have left &6%team%&8.'
+    headquarter spawn set: '&7Headquarter spawn was set successfully&8.'
+    rally spawn set: '&6Rally &espawn was set successfully&8.'
+    has disbanded: '&6%player% &ehas disbanded the team&8.'
+    team disbanded: '&6%team% &ewas successfully disbanded&8.'
+    you have been invited: '&6%player% &ehas invited you to join &6%team%&8.'
+    team invite sent: '&eInvitation successfully sent to &6%player%&8.'
+    team created: '&6%team% &ewas created&8.'
+    warp removed: '&6%warp% &ewas removed&8.'
+    warp set: '&6%warp% &ewas set&8.'
+    warped successfully: '&eWelcome to warp &6%warp%&8.'
+    no warps: '&7You currently have no warps&8.'
+    team help:
+    - '&6&lTeam Help'
+    - '&7Team Info &6Name &eLook up a team.'
+    - '&7Team Create &6Name &eCreate a new team.'
+    - '&7Team Invite &6Player &eInvite players to team.'
+    - '&7Team Join &6Name &eJoin teams through invitations.'
+    - '&7Team FF &eToggle friendly fire.'
+    - '&7Team Kick &6Player &eKick team members.'
+    - '&7Team SetHQ &eSet team headquarter spawn.'
+    - '&7Team SetRally &eSet team rally spawn.'
+    - '&7Team HQ &eTravel to team''s headquarter spawn.'
+    - '&7Team HQ &eTravel to team''s rally spawn.'
+    - '&7Team Promote &6Player &ePromote recruits.'
+    - '&7Team Demote &6Player &eDemote officers.'
+    team info:
+    - '&e&l%team%''s Team Information'
+    - '&6%founder% &7owns &6%team%'
+    - '&eMembers Online : &8[&6%current%&8][&6%total%&8]'
+    - '&eOfficers : &6%officers%'
+    - '&eRecruits : &6%recruits%'
+    team member status: '&6%member% &8[%status%&8]'
+    status:
+      online: '&aONLINE'
+      offline: '&cOFFLINE'
+    warp help:
+    - '&7Warp Help'
+    - '&7Warp Set &6Name &eCreate a new warp.'
+    - '&7Warp Del &6Name &eDelete specified warp.'
+    - '&7Warp &6Name &eGoto specified warp.'
+    - '&7Warp List &eShow all current warps.'
+    current arenas:
+      1: '&eYou currently have &8[&6%amount%&8][&6%limit%&8] &ewarps&8.'
+      2: '&eWarps: &6%warps%'
+  error:
+    please make a selection: '&7Please use &e"//wand" &7to select a region&8.'
+    player not in a team: '&7%player% is not a team&8.'
+    selection must be a block: '&7Selection must be a block&8.'
+    must wait: '&eYou must wait &6%timeout% &esecond(s) before you can execute that command&8.'
+    please set spawn: '&ePlease use command &e"/Setspawn" &eto set server spawn&8.'
+    cannot invite yourself: '&7You cannot send yourself an invitation.'
+    cannot demote yourself: '&7You cannot demote yourself.'
+    cannot demote recruit: '&7You cannot demote a recruit.'
+    cannot promote officer: '&7You cannot promote an officer.'
+    cannot promote yourself: '&7You cannot promote yourself.'
+    cannot kick yourself: '&7You cannot remove yourself from the team.'
+    cannot kick player: '&7Cannot remove member with a higher rank than yours.'
+    player not in your team: '&8[&6%player%&8] &7is not in your team.'
+    please wait: '&7Please wait for your invitation to expire.'
+    cannot attack other members: '&8[&6%player%&8] &7is on your team, You cannot damage them.'
+    cannot join while in team: '&7You can not join that team if you''re already in a team.'
+    no invites: '&7You have no invitations to accept.'
+    no invites for team: '&7You have no invitation from team &8[&6%team%&8]&7.'
+    please set rally spawn: '&7Please use command &e"/Team <SetRally>" &7 to set rally spawn.'
+    please set headquarter spawn: '&7Please use command &e"/Team <SetHQ>" &7to set headquarter spawn.'
+    please do disband: '&7Please use command &e"/Team <Disband>" &7to disband your current team.'
+    must be founder: '&7Only founders can execute that command.'
+    player already in team: '&8[&6%player%&8] &7is in team &8[&6%team%&8]&7, They''re already in a team.'
+    player does not exist: '&8[&6%player%&8] &7is not online.'
+    must have a team: '&7You must have a team to execute that command.'
+    name already exist: '&7Please specify another name.'
+    cannot create new team: '&7You''re already in a team, Please leave if you wish to create a new team.'
+    cannot execute command: '&7You cannot execute that command right now.'
+    no warps to remove: '&7You currently have no warps to remove.'
+    warp does not exist: '&7Warp &8[&6%warp%&8] &7is null.'
+    need permission: '&cYou must have permission %permission% to execute that command.'
+    must be player: '&7You must be a player to execute that command.'
+    cannot set a warp: '&7You cannot set any warps right now.'
+    limit reached: '&7You do not have any more warps left to set.'
+    warp already exist: '&7You already have a warp named &8[&6%warp%&8]&7.'
+  announcement:
+    has combat logged: '&8[&c%player%&8] &4(Combat Logger) has logged out.'
+  misc:
+    server spawn not set: '&eServer spawn is not set, Please use &6"/Setspawn" &eto set the server'' spawn&8.'
+    cannot splash player: '&eYou cannot splash &6%player%&8.'
+    cannot damage player: '&eYou cannot damage &6%player%&8.'
+    spawn protection removed: '&7Your spawn protection was removed.'
+    you tagged: '&7Tagged &8[&6%player%&8]&7, Please wait &8[&6%timeout%&8] &7second(s) before you can logout.'
+    was tagged by: '&8[&6%player%&8] &7has tagged you, Please wait &8[&6%timeout%&8] &7second(s) before you can logout.'
+    you can now logout: '&2You can now logout.'
+    has killed you: '&7You was murdered by &8[&6%player%&8] &7while you combat logged.'
